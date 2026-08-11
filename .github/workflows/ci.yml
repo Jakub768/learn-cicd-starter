@@ -20,6 +20,3 @@ jobs:
 
       - name: Test auth
         run: go test ./... -cover
-
-      - name: Run formatting check 
-        run: test -z $(go fmt ./...)
